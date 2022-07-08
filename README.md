@@ -21,6 +21,21 @@ Zen provides a rich set of features to help increase user performance, security,
 *   **Inproved Update System** - Structure for auto application updates has been adjusted.
 
 ## Keyboard Input Handling
+ZEN respects security, using Win32 api you are able to freeze Input devices. For example, while running important code, loading drivers or even freezing due to vulnerability. This can be accessed using the code below, simply add this to your desired class / form.
+
+```java
+public static void BlockInput(bool toggle)
+        {
+            if (toggle)
+            {
+                ZEN._0x02.mcyAy.BlockInput(true);
+            }
+            else if (!toggle)
+            {
+                ZEN._0x02.mcyAy.BlockInput(true);
+            }
+        }
+```
 
 ## Information
 ### If you get an error saying eo.browser is missing you can get them from the link below.
