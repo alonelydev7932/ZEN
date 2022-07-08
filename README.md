@@ -6,7 +6,7 @@
 A C-Sharp multipurpose loader created using KeyAuths api. This loader can be used to create a cheat loader or spoofer or even a tool / utilty application.
 
 <p align="center">
-  <img  src="Preview.png">
+  <img  src="Preview.gif">
 </p>
 
 ## Features
