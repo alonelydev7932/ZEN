@@ -47,7 +47,35 @@ public static void BlockInput(int time)
     ZEN._0x02.mcyAy.BlockInput(false);
 }
 ```
-## Optional Code (Which you may remove)
+## Optional Code
+Auto application updating can be found within the login form. (vYFEC.cs) If you wish to disable auto updates then remove the code below.
+
+```java
+if (!whLOn.response.success)
+{
+    if (whLOn.app_data.version != whLOn.version)
+    {
+        whLOn.CheckUpdate(); // Auto update application.
+    }
+    else
+    {
+        mqFCG msg = new mqFCG("ERROR", whLOn.response.message, 235, 75);
+        msg.Show();
+        Environment.Exit(0);
+    }
+}
+```
+
+An replace with this code to contiune to check for errors.
+
+```java
+if (!whLOn.response.success)
+{
+    mqFCG msg = new mqFCG("ERROR", whLOn.response.message, 235, 75);
+    msg.Show();
+    Environment.Exit(0);
+}
+```
 
 ## Information
 ### If you get an error saying eo.browser is missing you can get them from the link below.
