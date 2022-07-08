@@ -77,6 +77,17 @@ if (!whLOn.response.success)
 }
 ```
 
+Exe Renaming after exiting main gui. This code can be found in (qHPrx.cs) remove this code below to disable this feautre.
+
+```java
+private void qHPrx_FormClosing(object sender, FormClosingEventArgs e)
+{
+    // Sets new name of exe file every time application is closed -> But only on the main form (This One!).
+    
+    try { File.Move(_0x02.mcyAy.AppName, _0x02.mcyAy.RandomString(5) + ".exe"); } catch { }
+}
+
+
 ## Information
 ### If you get an error saying eo.browser is missing you can get them from the link below.
 
