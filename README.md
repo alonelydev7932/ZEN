@@ -10,14 +10,17 @@ A C-Sharp multipurpose loader created using KeyAuths api. This loader can be use
 </p>
 
 ## Features
+Zen provides a rich set of features to help increase user performance, security, gui design and overall feel:
+
 *   **Login UI** - Login with username and password supported as well as registering.
 *   **GUI** - Example of theming setup within the loader.
 *   **Themes** - Both light and dark have been added.
 *   **Splash Screen** - Help prevent lag and other issues using the cool splash.
+*   **Random Strings** - Title changing, Exe renaming.
+*   **Security** - Win32 InputBlock, Anti Dump and Anti Debug protection.
+*   **Inproved Update System** - Structure for auto application updates has been adjusted.
 
-## Getting Started
-### Prerequisites
-Microsoft Visual Studio 2019 16.10 (or newer), platform C# Net Framework 4.8 (Latest) required in order to compile. If you don't have ones, you can download VS [here](https://visualstudio.microsoft.com/) (Net Framework is installed during Visual Studio Setup).
+## Keyboard Input Handling
 
 ## Information
 ### If you get an error saying eo.browser is missing you can get them from the link below.
