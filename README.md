@@ -96,3 +96,18 @@ If any errors / issues are found with ZEN resources you can find them below.
 *   **DLLS** - https://anonfiles.com/f1l8E6t8yf/Dlls_zip
 *   **Light Particles** - https://github.com/alonelydev7932/particles-light.github.io
 *   **Dark Particles** - https://github.com/alonelydev7932/particles-dark.github.io
+
+# Using ZEN Resources In Your Own Projects
+If you do not need the full loader you can use ZEN resources within your own project view information below on how to do so.
+
+Installing and using EO components
+
+* Download and add the dlls above to your project.
+* Add this line of code below to your main class or form.
+
+```java
+public Form1()
+{
+EO.WebBrowser.Runtime.AddLicense("6A+frfD09uihfsay4Q/lW5f69h3youbyzs2xaqW0s8uud7Pl9Q+frfD09uihfsay6BvlW5f69h3youbyzs2xaaW0s8uud7Pl9Q+frfD09uihfsay6BvlW5f69h3youbyzs2xaqW0s8uud7Oz8hfrqO7CzRrxndz22hnlqJfo8h/kdpm1wNyuaae0ws2frOzm1iPvounpBOzzdpm1wNyucrC9ys2fr9z2BBTup7Smw82faLXABBTmp9j4Bh3kd+T20tbFiajL4fPRoenW2RX4ksbS4hK8drOzBBTmp9j4Bh3kd7Oz/RTinuX39ul14+30EO2s3MLNF+ic3PIEEMidtbXE3rZ1pvD6DuSn6unaD7112PD9GvZ3s+X1D5+t8PT26KF+xrLUE/Go5Omzy/We6ff6Gu12mbbB2a9bl7PP5+Cd26QFJO+etKbW+q183/YAGORbl/r2HfKi5vLOzbFqpbSzy653s+X1D5+t8PT26KF+xrLoEOFbl/r2HfKi5vLOzbFppbSzy653s+X1D5+t8PT26KF+xrLoEOFbl/r2HfKi5vLOzbFqpbSzy653s+X1D5+t8PT26KF+xrLhD+Vbl/r2HfKi5vLOzbFppbSzy653s+X1");
+}
+```
