@@ -47,6 +47,7 @@ public static void BlockInput(int time)
     ZEN._0x02.mcyAy.BlockInput(false);
 }
 ```
+## Optional Code (Which you may remove)
 
 ## Information
 ### If you get an error saying eo.browser is missing you can get them from the link below.
