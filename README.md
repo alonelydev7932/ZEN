@@ -1,9 +1,13 @@
-# ZEN
-
 [![C#](https://img.shields.io/badge/Language-C%23-red)](https://en.wikipedia.org/wiki/C_Sharp_(programming_language)) 
 [![YO?](https://img.shields.io/badge/Keyuath-Loader-yellowgreen)](https://keyauth.com/) [![Windows](https://img.shields.io/badge/Platform-Windows-brightgreen)](https://en.wikipedia.org/wiki/Microsoft_Windows) [![xArch](https://img.shields.io/badge/System%20Arch-Any%20CPU-blue)](https://en.wikipedia.org/wiki/X86-64) [![License](https://img.shields.io/badge/License-MIT-pink)](LICENSE)
 
-Open-source cross-platform loader for **Keyauth**.
+# ZEN, A DECENT LOADER EXAMPLE CREATED IN .NET 
+
+A C-Sharp multipurpose loader created using KeyAuths api. This loader can be used to create a cheat loader or spoofer or even a tool / utilty application.
+
+<p align="center">
+  <img  src="Preview.png">
+</p>
 
 ## Features
 *   **Login UI** - Login with username and password supported as well as registering.
@@ -23,7 +27,3 @@ Microsoft Visual Studio 2019 16.10 (or newer), platform C# Net Framework 4.8 (La
 *   **Dark Particles** - https://github.com/alonelydev7932/particles-dark.github.io
 
 ## Deisgn Preview
-
-<p align="center">
-  <img  src="Preview.png">
-</p>
