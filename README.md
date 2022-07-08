@@ -24,15 +24,27 @@ Zen provides a rich set of features to help increase user performance, security,
 ZEN respects security, using Win32 api you are able to freeze Input devices. For example, while running important code, loading drivers or even freezing due to vulnerability. This can be accessed using the code below, simply add this to your desired class / form.
 
 ```java
-public static void BlockInput(bool toggle) {
-if (toggle)
+// With out a timer enable / disable user input block.
+
+public static void BlockInput(bool toggle)
 {
-ZEN._0x02.mcyAy.BlockInput(true);
+    if (toggle)
+    {
+        ZEN._0x02.mcyAy.BlockInput(true);
+    }
+    else if (!toggle)
+    {
+        ZEN._0x02.mcyAy.BlockInput(true);
+    }
 }
-else if (!toggle)
+
+// Blocking user input for a period of time.
+
+public static void BlockInput(int time)
 {
-ZEN._0x02.mcyAy.BlockInput(true);
-}
+    ZEN._0x02.mcyAy.BlockInput(true);
+    Thread.Sleep(time);
+    ZEN._0x02.mcyAy.BlockInput(false);
 }
 ```
 
