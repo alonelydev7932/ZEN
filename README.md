@@ -86,13 +86,13 @@ private void qHPrx_FormClosing(object sender, FormClosingEventArgs e)
     
     try { File.Move(_0x02.mcyAy.AppName, _0x02.mcyAy.RandomString(5) + ".exe"); } catch { }
 }
+```
+## Installing
+Download this repo and extract to desired location, Make sure you have the latest version of .Net Framework installed as well as Visual Studio 2019 or later. All resources needed can be found below.
 
-
-## Information
-### If you get an error saying eo.browser is missing you can get them from the link below.
+# Information
+If any errors / issues are found with ZEN resources you can find them below.
 
 *   **DLLS** - https://anonfiles.com/f1l8E6t8yf/Dlls_zip
 *   **Light Particles** - https://github.com/alonelydev7932/particles-light.github.io
 *   **Dark Particles** - https://github.com/alonelydev7932/particles-dark.github.io
-
-## Deisgn Preview
